@@ -2,6 +2,8 @@
 
 It calculates the best possible agenda for my vacation. This is done by calucalting a fitness value for every possible combination.
 
+I repeat this is just a quick written programm. So no proper capitalisation, variable names nor documentation.
+
 # Output
 ```
 // first value is fitness value.
