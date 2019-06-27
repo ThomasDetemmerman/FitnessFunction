@@ -16,7 +16,7 @@ void fitnessA(const std::vector<std::string> r, int &fitness, const std::vector<
             {
 
                 fitness--;
-                log += "to city trips next to each other \n";
+                log += "two times same activity next to each other \n";
             }
         }
 }
@@ -53,7 +53,7 @@ void fitnessC(const std::vector<std::string> r, int &fitness, std::string &log)
 {
     if (r[0] == "symi" || r[2] == "symi")
     { //dinsdag of donderdag
-        fitness -= 150;
+        fitness -= 100;
         log += "symi cannot be first or third activity \n";
     }
 }
