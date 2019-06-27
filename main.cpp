@@ -16,7 +16,7 @@ void fitnessA(const std::vector<std::string> r, int &fitness, const std::vector<
             {
 
                 fitness--;
-                log += "two times same activity next to each other \n";
+                log += "two times same type of activity next to each other \n";
             }
         }
 }
